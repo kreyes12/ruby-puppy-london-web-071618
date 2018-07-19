@@ -1,21 +1,25 @@
 class Dog
   
-  attr_accessor :dogs
+  attr_accessor :name
   
 @@all = []
 
 def initialize(name)
   @name = name
-  self.new(name)
-  @@all << new
+  @@all << self
 end
+  
 
-def clear_all
+def self.clear_all
   @@all.clear
 end
 
 def self.all
-  @@all
+  @all.each do |name| 
+    puts "#{name}"
+  binding.pry
 end
+end
+
 
 end
