@@ -17,7 +17,7 @@ end
 def self.all
   @@all.map {|dog| dog.name}
 end
-end
+
 
 
 end
