@@ -15,7 +15,7 @@ def self.clear_all
 end
 
 def self.all
-  @@all.map do |dog|
+  @@all.map do |name|
     puts "#{dog}\n"
 end
 
