@@ -18,6 +18,7 @@ def self.all
   @@all.map do |name|
     puts "#{name}\n"
 end
+end
 
 
 end
