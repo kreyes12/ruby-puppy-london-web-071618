@@ -16,7 +16,7 @@ end
 
 def self.all
   @@all.map do |name|
-    puts "#{dog}\n"
+    puts "#{name}\n"
 end
 
 
