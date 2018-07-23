@@ -16,7 +16,7 @@ end
 
 def self.all
   @@all.map do |dog|
-    puts "#{dog/n}"
+    puts "#{dog}\n"
 end
 
 
