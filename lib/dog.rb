@@ -15,7 +15,7 @@ def self.clear_all
 end
 
 def self.all
-  @all.map {|dog| puts }
+  @all.map {|dog| puts dog }
 end
 
 
