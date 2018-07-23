@@ -15,10 +15,7 @@ def self.clear_all
 end
 
 def self.all
-  @all.each do |name| 
-    puts "#{name}"
-  binding.pry
-end
+  @all.map {|dog| puts }
 end
 
 
