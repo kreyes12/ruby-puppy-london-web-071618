@@ -15,7 +15,8 @@ def self.clear_all
 end
 
 def self.all
-  @@all.map {|dog| puts dog }
+  @@all.map do |dog|
+    puts "#{dog/n}"
 end
 
 
